@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+body{
+    background-color: whitesmoke;
+}
+*{font-family: "Reddit Sans Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    display: flex;
+    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: 50px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+
+}
+.left i{
+color:#E85C0D;
+font-size: xx-large;
+
+    
+}
+    
+.center{
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+    
+
+}
+.center ul{
+    
+    display: flex;
+  
+}
+.center li{
+    font-weight: 500;
+    font-size: large;
+    list-style: none;
+    margin-left: 30px;
+    color: gray;
+    cursor: pointer;
+}
+.center  a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    list-style: none;
+    margin-left: 20px;
+    color: gray;
+    cursor: pointer;
+}
+.center li a:hover{
+    color: #E85C0D;
+    font-weight: 700;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right button{
+    
+    width: 80px;
+  margin-left: 210px;
+  height: 30px;
+  background-color: #E85C0D;
+  border: none;
+  border-radius: 3px;
+  color: aliceblue;
+
+}
+#main {
+  display: flex;
+  height: 100vh;
+}
+.content{
+    margin-left: 90px;
+    margin-top: 95px;
+}
+
+
+.content h1{
+    color: #125B9A;
+    font-size: 55px;
+}
+.image{
+    height: 380px;
+   margin-top: 20px;
+    margin-left: 100px;
+}
+.image img{height: 400px;
+    width: 500px;
+    opacity: 10;
+
+}
+.image img:hover{
+    transform: rotateY(360deg);
+    transition: 3s;
+}
+.content p{
+    margin-top: 10px;
+    color: grey;
+    width: 450px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.contact i{
+
+    font-size: 35px;
+    color:#E85C0D;
+}
+hr{
+    color: orange;
+    height: 20px;
+    background-color:#E85C0D;
+    border: 1px solid white;
+    
+}
+
+
+.hero {
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    width: 80px;
+    color: aliceblue;
+    margin-left: 10px;
+    
+}
+
+    
+
+
+
+.image2{
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.image2 img {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    
+}
+/* web page 2 */
+
+#container{
+    height: 100vh;
+    width: 100vw;
+
+}
+.heading{
+    text-align: center;
+    color: #125B9A;
+    font-size: xxx-large;
+    
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.upper button{
+    height: 40px;
+    border: 2px solid  orange;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100px;
+   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.upper button:hover{
+    border: 2px solid #E85C0D;
+   
+    
+    
+
+}
+ .btn a{
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+    font-weight: 500;
+
+}
+.btn a:hover{
+    
+    color: #125B9A;
+    font-size: large;
+    
+
+}
+.aboutimg{
+    margin-left: 100px;
+    margin-top: 30px;
+    transition: 0.2s linear;
+}
+.aboutimg img:hover{
+    transform: scale(1.1);
+}
+.aboutimg img{
+    height: 300px;
+    width: 300px;
+    
+}
+.box{
+    display: flex;
+}
+.para{
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+/* web page 3 */
+#skill{
+    height: 100vh;
+    width: 100vw;
+}
